@@ -8,9 +8,198 @@
   <title>Интернет-магазин Автозапчастей: Каталог</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <header class="page-header"></header>
-  <main class="main"></main>
-  <footer class="page-footer"></footer>
+<body class="no-js catalog-body">
+
+  <header class="page-header">
+    <div class="page-header__wrap">
+      <div class="page-header__top">
+        <div class="page-header__container">
+          <h1 class="visually-hidden">Интернет-магазин Автозапчастей: Главная</h1>
+          <button class="page-header__menu-toggle">
+            <span class="visually-hidden">Открыть меню</span>
+            <span class="page-header__menu-toggle-bar"></span>
+          </button>
+          <a href="#" class="logo">
+            Логотип Интернет-магазина Автозапчастей
+          </a>
+          <div class="menu">
+            <div class="menu__wrap">
+              <ul class="menu__user">
+                <li class="menu__user-item">
+                  <a href="#" class="menu__user-link menu__user-link--log-in">Войти</a>
+                </li>
+                <li class="menu__user-item">
+                  <a href="#" class="menu__user-link menu__user-link--sign-up">Регистрация</a>
+                </li>
+                <li class="menu__user-item">
+                  <a href="#" class="menu__user-link menu__user-link--favorites">Избранное</a>
+                </li>
+              </ul>
+              <ul class="menu__main">
+                <li class="menu__main-item">
+                  <a href="#" class="menu__main-link menu__main-link--shops">Магазины</a>
+                </li>
+                <li class="menu__main-item">
+                  <a href="#" class="menu__main-link menu__main-link--actions">Акции</a>
+                </li>
+                <li class="menu__main-item">
+                  <a href="#" class="menu__main-link menu__main-link--delivery">Доставка и оплата</a>
+                </li>
+              </ul>
+              <ul class="menu-cats">
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Каталог запчастей</a>
+                </li>
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Каталог ТО</a>
+                </li>
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Шины</a>
+                </li>
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Диски</a>
+                </li>
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Аккумуляторы</a>
+                </li>
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Автомасла</a>
+                </li>
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Автолампы</a>
+                </li>
+                <li class="menu__cats-item">
+                  <a href="#" class="menu__cats-link">Аксессуары</a>
+                </li>
+              </ul>
+              <a href="#" class="menu__adress">Санкт-Петербург, ул Большая Конюшенная, д&nbsp;19</a>
+            </div>
+          </div>
+          <ul class="user-nav">
+            <li class="user-nav__item">
+              <a href="#" class="user-nav__link user-nav__link--favorites">
+                <span class="visually-hidden">Избранное</span>
+              </a>
+            </li>
+            <li class="user-nav__item">
+              <a href="#" class="user-nav__link user-nav__link--account">
+                <span class="visually-hidden">Личный кабинет</span>
+              </a>
+            </li>
+            <li class="user-nav__item">
+              <a href="#" class="user-nav__link user-nav__link--cart">
+                <span class="visually-hidden">Корзина</span>
+                <span class="user-nav__link-content">1</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <nav class="page-header__bottom nav">
+        <div class="nav__container">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Каталог Запчастей</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Каталог ТО</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--active" href="#">Шины</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Диски</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Аккумуляторы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Автомасла</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Автолампы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Аксессуары</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-catalog main">
+    <ul class="breadcrumbs">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="catalog.html">Шины</a></li>
+      <li class="breadcrumbs__current breadcrumbs__current--desktop">Шины зимние</li>
+      <li class="breadcrumbs__mobile"><a>Кама</a></li>
+      <li class="breadcrumbs__mobile breadcrumbs__current breadcrumbs__current--mobile">Зимние шины Кама</li>
+    </ul>
+
+    <h1>Нешипованные шины</h1>
+
+    <section class="top-filters filters filter">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <div class="top-filters__wrapper">
+        <div class="top-filters__offers">
+          <ul>
+            <li>
+              <a href="#">Полноприводные</a>
+            </li>
+            <li>
+              <a href="#">от 5000</a>
+            </li>
+            <li>
+              <a href="#">Nokian</a>
+            </li>
+            <li>
+              <a href="#">от 5000</a>
+            </li>
+            <li>
+              <a href="#">ещё</a>
+            </li>
+          </ul>
+        </div>
+        <div class="filter__select-wrapper top-filters__city">
+          <div class="custom-select custom-select__city">
+            <button class="custom-select__title filters__sorting-select" type="button">Набережные Челны</button>
+            <input type="hidden" name="modification">
+            <ul>
+              <li data-value="Набережные Челны">Набережные Челны</li>
+            </ul>
+          </div>
+        </div>
+        <div class="top-filters__sorting">
+          <div class="top-filters__sorting-type">
+            <div class="filter__select-wrapper filter__select-wrapper--popular">
+              <div class="custom-select" id="popular-select">
+                <button class="custom-select__title filters__sorting-select">По популярности</button>
+                <input type="hidden" name="popular">
+                <ul>
+                  <li data-value="По популярности">По популярности</li>
+                </ul>
+              </div>
+            </div>
+            <button class="top-filters__sorting-button" type="button">По популярности</button>
+          </div>
+          <div class="top-filters__sorting-view">
+            <button class="top-filters__sorting-tile" type="button" name="button">
+              <span class="visually-hidden">показать плиткой</span>
+            </button>
+            <button class="top-filters__sorting-simple" type="button" name="button">
+              <span class="visually-hidden">показать списком</span>
+            </button>
+          </div>
+          <div class="top-filters__sorting-mobile">
+            <button type="button">Фильтры</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
 </body>
+
 </html>
